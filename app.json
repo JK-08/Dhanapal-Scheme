@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Dhanapal Scheme",
+    "slug": "dhanapal-scheme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.brightech.dhanapalscheme"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9179c9f9-09de-45ed-8d12-724b1fa28310"
+      }
+    },
+    "owner": "brightech",
+    "plugins": [
+      "expo-font",
+      "expo-localization",
+      "expo-secure-store",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
